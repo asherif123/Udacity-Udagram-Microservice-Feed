@@ -1,6 +1,3 @@
-# docker build . -t a-sherif/udagram-feed-api
-# docker run --env-file env.list -p 8081:8081 --rm -d a-sherif/udagram-feed-api
-
 FROM node:16
 
 # Create app directory
