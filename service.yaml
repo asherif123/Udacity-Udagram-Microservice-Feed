@@ -1,9 +1,9 @@
 apiVersion: v1
 kind: Service
 metadata:
-  name: my-udagram-feed-api
+  name: my-udagram-feed-api-svc
   labels:
-    run: my-udagram-feed-api
+    run: my-udagram-feed-api-svc
 spec:
   ports:
   - port: 8081
