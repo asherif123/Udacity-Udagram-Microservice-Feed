@@ -20,6 +20,13 @@ spec:
       # docker image name
       - name: udagram-feed-api
         image: abdelrahmansherif/udacity-udagram-microservice-feed
+        resources:
+          requests:
+            memory: "64Mi"
+            cpu: "250m"
+          limits:
+            memory: "1024Mi"
+            cpu: "500m"  
         env:
         - name: POSTGRES_USERNAME
           value: -----
